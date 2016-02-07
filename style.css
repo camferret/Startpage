@@ -1,0 +1,33 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background: url('pape.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+h1 {
+	font-size: 13px;
+	text-align: center;
+	color: #555;
+}
+table {
+	background-color: #EEE;
+	opacity: 0.8;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+	border-radius: 2px;
+	border-spacing: 20px 20px;
+	float: left;
+	margin-right: 20px;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+	text-decoration: none;
+}
